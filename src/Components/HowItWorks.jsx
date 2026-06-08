@@ -1,3 +1,4 @@
+import "./HowItWorks.css";
 export default function HowItWorks() {
   return (
     <div className="how">
@@ -7,8 +8,8 @@ export default function HowItWorks() {
       <div className="steps">
         <div className="step">
           <div className="num">01</div>
-          <h3>Create Account</h3>
-          <p>Sign up and log in to your dashboard.</p>
+          <h3>Know Your Soil</h3>
+          <p>Understand your soil's composition and characteristics.</p>
         </div>
 
         <div className="step">
