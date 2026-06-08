@@ -60,7 +60,7 @@ cropai/
 
 ### Home Page
 
-![Home Page](Preview/HomePage1.png)
+![Home Page](Preview/HomePage.png)
 
 
 ### Prediction Form
