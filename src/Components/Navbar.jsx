@@ -39,16 +39,7 @@ export default function Navbar() {
               <span onClick={handleLogout} className="nav-link sign-out">Sign Out</span>
             </div>
           </>
-        ) : (
-          <>
-            <button onClick={() => navigate("/login")} className="nav-btn login-btn">
-              Sign In
-            </button>
-            <button onClick={() => navigate("/signup")} className="nav-btn signup-btn">
-              Sign Up
-            </button>
-          </>
-        )}
+        ) : null}
       </div>
     </div>
   );

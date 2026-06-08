@@ -54,38 +54,6 @@
   background-color: rgba(255, 204, 112, 0.1);
 }
 
-/* AUTH BUTTONS */
-.nav-btn {
-  padding: 8px 18px;
-  border: none;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  white-space: nowrap;
-}
-
-.login-btn {
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-}
-
-.login-btn:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.signup-btn {
-  background-color: #2e6f3e;
-  color: white;
-}
-
-.signup-btn:hover {
-  background-color: #3d8a4d;
-  transform: translateY(-2px);
-}
-
 /* USER SECTION */
 .user-section {
   display: flex;

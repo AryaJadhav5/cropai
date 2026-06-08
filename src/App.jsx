@@ -7,8 +7,6 @@ import HowItWorks from "./Components/HowItWorks";
 import WhyChoose from "./Components/WhyChoose";
 import GetRecommendation from "./pages/GetRecommendation";
 import Dashboard from "./pages/Dashboard";
-import Login from "./pages/Login";
-import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -27,8 +25,6 @@ function App() {
             }
           />
 
-          <Route path="/login" element={<Login />} />
-          <Route path="/signup" element={<SignUp />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/recommend" element={<GetRecommendation />} />
         </Routes>
