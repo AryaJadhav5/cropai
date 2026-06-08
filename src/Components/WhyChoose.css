@@ -1,0 +1,62 @@
+.why {
+  text-align: center;
+  padding: 100px 60px;
+  background: #f4f7f4;
+}
+
+.why h2 {
+  font-size: 36px;
+  color: #1f4d2e;
+  margin-bottom: 10px;
+}
+
+.why p {
+  color: #5c7c66;
+  margin-bottom: 50px;
+}
+
+/* CARDS CONTAINER */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* EACH CARD */
+.cards .card {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 18px;
+  text-align: left;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+.logo-box {
+  width: 70px;
+  height: 70px;
+  background: #e4f0e6;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 15px;
+}
+/* HOVER EFFECT */
+.cards .card:hover {
+  transform: translateY(-10px);
+}
+
+
+/* TEXT */
+.cards .card h3 {
+  color: #1f4d2e;
+  margin-bottom: 10px;
+}
+
+.cards .card p {
+  font-size: 14px;
+  color: #5c7c66;
+}

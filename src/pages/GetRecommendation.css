@@ -1,0 +1,96 @@
+.rec-container {
+  padding: 40px;
+  background: #eef4ef;
+  min-height: 100vh;
+}
+
+.rec-card {
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+}
+
+.input-group {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.input-group.full {
+  width: 100%;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #1f4d2e;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #cfd8cf;
+  background: #f4f7f4;
+  font-size: 16px;
+}
+
+.input-group select {
+  width: 100%;
+  padding: 14px;
+  border-radius: 12px;
+  border: 1px solid #cfd8cf;
+  background: #f4f7f4;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-row {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.main-btn {
+  flex: 1;
+  padding: 15px;
+  background: #1f4d2e;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  padding: 15px 25px;
+  background: #dce8dd;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.tips-box {
+  margin: 30px auto;
+  width: 70%;
+  background: #fff3e6;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #f2c28b;
+}
+
+.tips-box h3 {
+  margin-bottom: 10px;
+}
+
+.tips-box ul {
+  padding-left: 20px;
+}

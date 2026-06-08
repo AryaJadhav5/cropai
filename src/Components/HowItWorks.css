@@ -1,0 +1,60 @@
+.how {
+  text-align: center;
+  padding: 100px 60px;
+  background: #ffffff;
+}
+
+.how h2 {
+  font-size: 36px;
+  color: #1f4d2e;
+  margin-bottom: 10px;
+}
+
+.how p {
+  color: #5c7c66;
+  margin-bottom: 50px;
+}
+
+/* STEPS CONTAINER */
+.steps {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* EACH STEP CARD */
+.step {
+  background: white;
+  padding: 30px;
+  width: 260px;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.step:hover {
+  transform: translateY(-10px);
+}
+
+/* NUMBER BADGE */
+.num {
+  background: #1f4d2e;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* TEXT */
+.step h3 {
+  margin-bottom: 10px;
+  color: #1f4d2e;
+}
+
+.step p {
+  color: #5c7c66;
+  font-size: 14px;
+}
