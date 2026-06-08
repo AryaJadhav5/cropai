@@ -1,16 +1,113 @@
-# React + Vite
+# 🌱 Smart Crop Recommendation System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered crop recommendation platform that helps farmers and agricultural enthusiasts identify the most suitable crop based on soil nutrients and environmental conditions.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Smart Crop Recommendation System uses a Machine Learning model trained on agricultural data to recommend the best crop for cultivation. Users enter parameters such as Nitrogen (N), Phosphorus (P), Potassium (K), temperature, humidity, pH, and rainfall, and the system predicts the most appropriate crop.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Machine Learning-based crop prediction
+* Interactive and responsive React frontend
+* Flask backend API integration
+* Real-time prediction results
+* User-friendly interface
+* Fast and accurate recommendations
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+
+* React.js
+* Vite
+* HTML5
+* CSS3
+* JavaScript
+
+### Backend
+
+* Flask
+* Python
+
+### Machine Learning
+
+* Scikit-Learn
+* Pandas
+* NumPy
+
+## 📂 Project Structure
+
+cropai/
+
+├── backend/
+
+│   ├── app.py
+
+│   ├── model.pkl
+
+│   └── requirements.txt
+
+├── src/
+
+├── public/
+
+├── package.json
+
+└── README.md
+
+## 📸 Screenshots
+
+### Home Page
+
+![Home Page]<img src ="Preview/HomePage1.png" width="700">
+
+
+### Prediction Form
+
+
+![Prediction Form]<img src="Preview/Input2.png" width="700">
+
+
+### Recommendation Result
+
+![Result]<img src ="Preview/PredictedOutput.png" width="700">
+
+## ⚙️ Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/AryaJadhav5/cropai.git
+cd cropai
+```
+
+### Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python app.py
+```
+
+### Frontend Setup
+
+```bash
+npm install
+npm run dev
+```
+
+## Future Enhancements
+
+* Weather API integration
+* Fertilizer recommendation system
+* Crop disease prediction
+* User authentication
+* Historical prediction tracking
+
+## Author
+
+Arya Jadhav
+
+BCA Student | Full Stack Developer | Machine Learning Enthusiast
+
