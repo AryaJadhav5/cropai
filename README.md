@@ -65,7 +65,6 @@ cropai/
 
 ### Prediction Form
 
-
 ![Prediction Form](Preview/Input2.png)
 
 
