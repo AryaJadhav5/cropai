@@ -60,18 +60,18 @@ cropai/
 
 ### Home Page
 
-![Home Page]<img src ="Preview/HomePage1.png" width="700">
+![Home Page](Preview/HomePage1.png)
 
 
 ### Prediction Form
 
 
-![Prediction Form]<img src="Preview/Input2.png" width="700">
+![Prediction Form](Preview/Input2.png)
 
 
 ### Recommendation Result
 
-![Result]<img src ="Preview/PredictedOutput.png" width="700">
+![Result](Preview/PredictedOutput.png)
 
 ## ⚙️ Installation
 
